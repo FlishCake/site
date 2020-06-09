@@ -1,3 +1,9 @@
 import React from "react";
 
-export default () => <div>Welcome to tutorial/part-one</div>;
+import Layout from "../components/layout";
+
+export default () => (
+  <Layout>
+    <h1>Луховицы L324 Планы</h1>
+  </Layout>
+);
