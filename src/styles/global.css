@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400;600;800&display=swap');
+
 html {
     background-color: gray;
+    font-family: 'Fira Sans', sans-serif;
 }
