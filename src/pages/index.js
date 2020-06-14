@@ -9,5 +9,5 @@ const Content = props => (
 );
 
 export default () => (
-  <Layout headerText={Title} content={Content} />
+  <Layout headerText={Title} content={Content()} />
 );
