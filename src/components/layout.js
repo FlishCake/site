@@ -4,13 +4,15 @@ import Header from "./header";
 import Footer from "./footer";
 
 export default ({ children }) => (
-    <Header />
+    <>
+        <Header />
     
-    <Article>
-        <Section>
-            {children}
-        </Section>
-    </Article>
+        <Article>
+            <Section>
+                {children}
+            </Section>
+        </Article>
     
-    <Footer />
+        <Footer />
+    <\>
 );
