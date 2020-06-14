@@ -12,7 +12,7 @@ html {
 
 header {
     background-color: white;
-    padding: 10px auto;
+    padding: 10px 20px;
 }
 
 heade > h1 > a {
@@ -22,5 +22,5 @@ heade > h1 > a {
 
 footer {
     background-color: black;
-    padding: 10px auto;
+    padding: 10px 20px;
 }
