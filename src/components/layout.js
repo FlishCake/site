@@ -7,11 +7,11 @@ export default ({ children }) => (
     <>
         <Header />
     
-        <Article>
+        <div>
             <Section>
                 {children}
             </Section>
-        </Article>
+        </div>
     
         <Footer />
     </>
