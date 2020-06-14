@@ -4,8 +4,10 @@ import Layout from "../components/layout";
 
 const title = "Главная";
 
-const content = "";
+const content => {
+    <h1>Test</h1>
+};
 
 export default () => (
-  <Layout headerText={title} />
+  <Layout headerText={title} content={content} />
 );
