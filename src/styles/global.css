@@ -21,6 +21,12 @@ header > h1 > a {
     color: black;
 }
 
+.content {
+    margin: 20px;
+    padding: 20px 40px;
+    background-color: white;
+}
+
 footer {
     background-color: black;
     padding: 10px 20px;

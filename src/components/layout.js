@@ -7,7 +7,7 @@ export default (props, { children }) => (
     <>
         <Header headerText={props.headerText} />
     
-        <div>
+        <div class="content">
             {children}
         </div>
     
