@@ -2,8 +2,10 @@ import React from "react";
 
 import Layout from "../components/layout";
 
+const title = "Главная";
+
+const content = "";
+
 export default () => (
-  <Layout headerText="Главная">
-    <h1>Index page</h1>
-  </Layout>
+  <Layout headerText={title} />
 );
