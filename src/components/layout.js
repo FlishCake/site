@@ -8,7 +8,7 @@ export default (props) => (
         <Header headerText={props.headerText} />
     
         <div class="content">
-            {props.content}
+            {props.Content}
         </div>
     
         <Footer />
