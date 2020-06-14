@@ -12,10 +12,15 @@ html {
 
 header {
     background-color: white;
-    padding: 4px 10px;
+    padding: 10px auto;
 }
 
-heade > h1 {
+heade > h1 > a {
     font-weight: 800;
     color: black;
+}
+
+footer {
+    background-color: black;
+    padding: 10px auto;
 }
