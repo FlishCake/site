@@ -8,9 +8,7 @@ export default ({ children }) => (
         <Header />
     
         <div>
-            <Section>
-                {children}
-            </Section>
+            {children}
         </div>
     
         <Footer />
