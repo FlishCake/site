@@ -3,6 +3,8 @@ import { Link } from "gatsby";
 
 export default () => (
   <header>
-    <Link to="/">Flishqa</Link>
+    <h1>
+        <Link to="/">Flishqa</Link>
+    </h1>
   </header>
 );

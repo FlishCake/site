@@ -4,3 +4,12 @@ html {
     background-color: gray;
     font-family: 'Fira Sans', sans-serif;
 }
+
+header {
+    background-color: white;
+}
+
+heade > h1 {
+    font-weight: 800;
+    color: black;
+}
