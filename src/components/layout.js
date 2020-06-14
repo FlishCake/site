@@ -5,7 +5,7 @@ import Footer from "./footer";
 
 export default (props, { children }) => (
     <>
-        <Header headerText="{props.headerText}" />
+        <Header headerText={props.headerText} />
     
         <div>
             {children}
