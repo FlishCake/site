@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 
 const Title = "Главная";
 
-const Content => (
+const Content = (
     <>
         <h1>Test</h1>
     </>
