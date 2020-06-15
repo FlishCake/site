@@ -2,8 +2,17 @@ import React from "react";
 
 import Layout from "../components/layout";
 
+const Title = "Луховицы L324 План;
+
+const Content = (
+    <div class="content">
+        
+    </div>
+    <div class="content">
+        <h1>Основные</h1>
+    </div>
+);
+
 export default () => (
-  <Layout headerText="План продаж" >
-    <h1>Луховицы L324 Планы</h1>
-  </Layout>
+    <Layout headerText={Title} Content={Content} />
 );

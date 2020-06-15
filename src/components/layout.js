@@ -7,9 +7,7 @@ export default (props) => (
     <>
         <Header headerText={props.headerText} />
     
-        <div class="content">
-            {props.Content}
-        </div>
+        {props.Content}
     
         <Footer />
     </>
