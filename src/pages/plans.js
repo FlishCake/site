@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 
-const Title = "Луховицы L324 План;
+const Title = "Луховицы L324 План";
 
 const Content = (
     <>
