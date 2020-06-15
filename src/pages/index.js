@@ -5,7 +5,6 @@ import Layout from "../components/layout";
 const Title = "Главная";
 
 const Content = (
-    <>
     <div class="content">
         <h1>Проекты</h1>
         
@@ -34,7 +33,6 @@ const Content = (
             <p>Краткое описание</p>
         </div>
     </div>
-    </>
 );
 
 export default () => (
