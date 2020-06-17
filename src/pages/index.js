@@ -2,12 +2,12 @@ import React from "react";
 
 import Layout from "../components/layout";
 
-import "../../styles/project.css";
+import styleHomePage from "../../styles/homePage.css";
 
 const Title = "Главная";
 
 const Content = (
-    <>
+    <div className={styleHomePage}>
         <div class="content">
             <h1>Проекты</h1>
         
@@ -36,7 +36,7 @@ const Content = (
                 <p>Краткое описание</p>
             </div>
         </div>
-    </>
+    </div>
 );
 
 export default () => (
