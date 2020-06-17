@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 
-import "./src/styles/project.css";
+import "../../styles/project.css";
 
 const Title = "Главная";
 
