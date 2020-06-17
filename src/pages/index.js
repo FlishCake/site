@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 
-import styleHomePage from "../../styles/homePage.css";
+import styleHomePage from "../styles/homePage.css";
 
 const Title = "Главная";
 
