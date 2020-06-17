@@ -2,6 +2,8 @@ import React from "react";
 
 import Layout from "../components/layout";
 
+import "./src/styles/project.css"
+
 const Title = "Главная";
 
 const Content = (
@@ -9,12 +11,12 @@ const Content = (
         <div class="content">
             <h1>Проекты</h1>
         
-            <div>
+            <div class="project">
                 <h2>Проект</h2>
                 <p>Описание проекта</p>
             </div>
         
-            <div>
+            <div class="project">
                 <h2>Проект</h2>
                 <p>Описание проекта</p>
             </div>
