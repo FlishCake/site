@@ -29,13 +29,14 @@ header > h2 {
 }
 
 .content {
+    border: 5px;
     margin: 10px;
     padding: 10px;
     background-color: white;
 }
 
 .content h1 {
-    margin: 0 10px;
+    margin: 0;
     font-weight: 800;
     font-size: 32px;
 }
