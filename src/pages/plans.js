@@ -16,7 +16,6 @@ const Content = (
         </div>
         
         <div class="content">
-        
             <h1>Основные</h1>
             
             <div class="flex">
@@ -26,7 +25,6 @@ const Content = (
             </div>
             
             <div class="flex">
-            
                 <div class="otherItem">
                     <p></p>
                     <p></p>
@@ -35,7 +33,6 @@ const Content = (
                 <div class="otherItem">
                 
                 </div>
-            
             </div>
         </div>
         
