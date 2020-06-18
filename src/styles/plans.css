@@ -1,0 +1,11 @@
+.flex {
+    display: flex;
+}
+
+.flex > firstItem {
+    flex-basis: 50px;
+}
+
+.flex > otherItem {
+    flex-basis: 50%;
+}
