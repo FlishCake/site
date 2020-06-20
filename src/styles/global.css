@@ -64,8 +64,8 @@ header>p {
 }
 
 .plans h2, .plans p {
-    margin-bottom: 0;
-    margin-right: 5pt;
+    margin-bottom: 3pt;
+    margin-right: 20pt;
 }
 
 footer {
