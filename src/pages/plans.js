@@ -44,6 +44,14 @@ const Content = (
                 name="Товарный оборот"
                 performance="150000/120000"
             />
+            
+            <br/>
+            
+            <Plan
+                percent="100%"
+                name="Аксессуары"
+                performance="15000/12000"
+            />
         </div>
     </>
 );
