@@ -17,8 +17,8 @@ header {
 header>a>h1 {
     font-weight: 800;
     color: white;
-    margin: 10pt;
-    font-size: 18pt;
+    margin: 5pt;
+    font-size: 14pt;
 }
 
 header>a {
@@ -27,49 +27,49 @@ header>a {
 
 header>h2 {
     font-weight: 200;
-    font-size: 18pt;
+    font-size: 14pt;
     color: white;
-    margin: 10pt;
+    margin: 5pt;
 }
 
 header>p {
     color: white;
-    font-size: 18pt;
+    font-size: 14pt;
     font-weight: 200;
 }
 
 .content {
-    border-radius: 5pt;
-    margin: 10pt;
-    padding: 10pt;
+    border-radius: 3pt;
+    margin: 5pt;
+    padding: 5pt;
     background-color: white;
 }
 
 .content h1 {
     margin: 0;
     font-weight: 800;
-    font-size: 20pt;
+    font-size: 16pt;
 }
 
 .content h2 {
     margin: 0 5pt;
     font-weight: 600;
-    font-size: 16pt;
+    font-size: 10pt;
 }
 
 .content p {
     margin: 0 5pt;
     font-weight: 400;
-    font-size: 16pt;
+    font-size: 10pt;
 }
 
 footer {
-    padding: 10pt;
+    padding: 5pt;
 }
 
 footer>a {
     font-weight: 800;
-    font-size: 18pt;
+    font-size: 14pt;
     text-decoration: none;
     color: white;
 }
@@ -81,7 +81,7 @@ footer>a {
 }
 
 .flex>firstItem {
-    flex-basis: 50pt;
+    flex-basis: 25pt;
 }
 
 .flex>otherItem {
