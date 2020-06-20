@@ -50,5 +50,5 @@ const Content = (
 
 export default () => (
     <Layout headerText={Title} Content={Content} />
-    <script src="../scripts/plans.js"
+    <script src="../scripts/plans.js"></script>
 );
