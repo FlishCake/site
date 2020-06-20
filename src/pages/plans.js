@@ -30,6 +30,10 @@ const Content = (
                 <div class="otherItem">
                     <p>До 100%: 20000</p>
                 </div>
+                
+                <div class="otherItem">
+                    <p>Осталось: 100000</p>
+                </div>
             </div>
         </div>
         
