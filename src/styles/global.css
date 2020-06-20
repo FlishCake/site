@@ -63,3 +63,15 @@ footer > a {
     text-decoration: none;
     color: white;
 }
+
+.flex {
+    display: flex;
+}
+
+.flex>firstItem {
+    flex-basis: 50px;
+}
+
+.flex>otherItem {
+    flex-basis: 50%;
+}

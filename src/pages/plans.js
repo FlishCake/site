@@ -2,12 +2,10 @@ import React from "react";
 
 import Layout from "../components/layout";
 
-import stylePlans from "../styles/plans.css";
-
 const Title = "Луховицы L324 План";
 
 const Content = (
-    <div className={stylePlans}>
+    <>
     
         <div class="content">
             <div class="flex">
@@ -26,17 +24,18 @@ const Content = (
             
             <div class="flex">
                 <div class="otherItem">
-                    <p></p>
-                    <p></p>
+                    <p>В день: </p>
+                    <p>10000</p>
                 </div>
                 
                 <div class="otherItem">
-                
+                    <p>До 100%: </p>
+                    <p>20000</p>
                 </div>
             </div>
         </div>
         
-    </div>
+    </>
 );
 
 export default () => (
