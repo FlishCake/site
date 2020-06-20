@@ -17,7 +17,7 @@ const Content = (
             <h1>Основные</h1>
             
             <div class="flex">
-                <p class="firstItem">100%</p>
+                <p class="otherItem">100%</p>
                 <h2 class="otherItem">Товарный оборот</h2>
                 <p class="otherItem">102500/90500</p>
             </div>
