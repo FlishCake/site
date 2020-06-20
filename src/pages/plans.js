@@ -4,8 +4,6 @@ import Layout from "../components/layout";
 
 const Title = "Луховицы L324 План";
 
-let date = new Date();
-
 const Plan = props => (
     <>
         <div class="flex">
@@ -52,4 +50,5 @@ const Content = (
 
 export default () => (
     <Layout headerText={Title} Content={Content} />
+    <script src="../scripts/plans.js"
 );
