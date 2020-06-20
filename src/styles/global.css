@@ -63,6 +63,11 @@ header>p {
     font-size: 10pt;
 }
 
+.plans h2, .plans p {
+    margin-bottom: 0;
+    margin-right: 5pt;
+}
+
 footer {
     padding: 5pt;
     text-align: center;

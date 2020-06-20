@@ -13,7 +13,7 @@ const Content = (
             </div>
         </div>
         
-        <div class="content">
+        <div class="content plans">
             <h1>Основные</h1>
             
             <div class="flex">
