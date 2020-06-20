@@ -12,54 +12,64 @@ html {
 
 header {
     background-color: black;
-    padding: 10px;
 }
 
-header > h1 > a {
+header>a>h1 {
     font-weight: 800;
-    font-size: 18px;
-    text-decoration: none;
     color: white;
+    margin: 10pt;
+    font-size: 18pt;
 }
 
-header > h2 {
+header>a {
+    text-decoration: none;
+}
+
+header>h2 {
     font-weight: 200;
-    font-size: 18px;
+    font-size: 18pt;
     color: white;
+    margin: 10pt;
+}
+
+header>p {
+    color: white;
+    font-size: 18pt;
+    font-weight: 200;
 }
 
 .content {
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
+    border-radius: 5pt;
+    margin: 10pt;
+    padding: 10pt;
     background-color: white;
 }
 
 .content h1 {
     margin: 0;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 20pt;
 }
 
 .content h2 {
-    margin: 0 5px;
+    margin: 0 5pt;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 16pt;
 }
 
 .content p {
-    margin: 0 5px;
+    margin: 0 5pt;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 16pt;
 }
 
 footer {
-    padding: 10px;
+    padding: 10pt;
 }
 
-footer > a {
+footer>a {
     font-weight: 800;
-    font-size: 18px;
+    font-size: 18pt;
     text-decoration: none;
     color: white;
 }
@@ -71,7 +81,7 @@ footer > a {
 }
 
 .flex>firstItem {
-    flex-basis: 50px;
+    flex-basis: 50pt;
 }
 
 .flex>otherItem {
