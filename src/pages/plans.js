@@ -24,13 +24,11 @@ const Content = (
             
             <div class="flex">
                 <div class="otherItem">
-                    <p>В день: </p>
-                    <p>10000</p>
+                    <p>В день: 10000</p>
                 </div>
                 
                 <div class="otherItem">
-                    <p>До 100%: </p>
-                    <p>20000</p>
+                    <p>До 100%: 20000</p>
                 </div>
             </div>
         </div>
