@@ -93,3 +93,8 @@ footer>a {
 .flex>otherItem {
     flex-basis: 50%;
 }
+
+.flex>rightItem {
+    flex-basis: 50%;
+    text-align: right;
+}
