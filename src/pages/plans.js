@@ -32,7 +32,7 @@ const Content = (
     <>
         <div class="content">
             <div class="flex">
-                <p>{date}</p>
+                <p></p>
             </div>
         </div>
         
