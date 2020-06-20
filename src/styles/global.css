@@ -84,17 +84,9 @@ footer>a {
     display: flex;
     align-items: center;
     align-content: stretch;
+    justify-content: space-between;
 }
 
-.flex>firstItem {
-    flex-basis: 25pt;
-}
-
-.flex>otherItem {
+.flex>item {
     flex-basis: 50%;
-}
-
-.flex>rightItem {
-    flex-basis: 50%;
-    text-align: right;
 }

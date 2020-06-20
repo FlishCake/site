@@ -3,10 +3,10 @@ import { Link } from "gatsby";
 
 export default (props) => (
   <header class="flex">
-    <Link class="otherItem">
+    <Link class="item">
         <h1 to="/">Flishqa</h1>
     </Link>
-    <p class="otherItem">></p>
-    <h2 class="otherItem">{props.headerText}</h2>
+    <p class="item">></p>
+    <h2 class="item">{props.headerText}</h2>
   </header>
 );
