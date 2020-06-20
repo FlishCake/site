@@ -4,6 +4,8 @@ import Layout from "../components/layout";
 
 const Title = "Луховицы L324 План";
 
+let date = new Date();
+
 const Plan = props => (
     <>
         <div class="flex">
@@ -32,7 +34,7 @@ const Content = (
     <>
         <div class="content">
             <div class="flex">
-                <p>25%</p>
+                <p>{date}</p>
             </div>
         </div>
         
