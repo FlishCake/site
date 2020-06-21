@@ -39,9 +39,9 @@ header>p {
 }
 
 .content {
-    border-radius: 3pt;
-    margin: 5pt;
-    padding: 5pt;
+    border-radius: 5pt;
+    margin: 10pt;
+    padding: 10pt;
     background-color: white;
 }
 
