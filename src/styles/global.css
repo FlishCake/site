@@ -12,12 +12,12 @@ html {
 
 header {
     background-color: black;
+    padding: 10pt 10pt 10pt 20pt;
 }
 
 header>a>h1 {
     font-weight: 800;
     color: white;
-    margin: 20pt;
     font-size: 14pt;
 }
 
@@ -29,7 +29,6 @@ header>h2 {
     font-weight: 200;
     font-size: 14pt;
     color: white;
-    margin: 20pt;
 }
 
 header>p {
