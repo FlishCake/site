@@ -43,7 +43,7 @@ header>p {
 .content {
     border-radius: 5pt;
     margin: 10pt;
-    padding: 3pt;
+    padding: 5pt;
     background-color: white;
 }
 
@@ -66,19 +66,19 @@ header>p {
 }
 
 .plans h2, .plans p {
-    margin-bottom: 2pt;
+    margin-bottom: 5pt;
 }
 
 .content>.plans {
-    padding-left: 3pt;
-    padding-right: 3pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
 }
 
 .contentBlack {
     border-radius: 5pt;
     background-color: black;
     color: white;
-    padding: 3pt;
+    padding: 5pt;
 }
 
 footer {
