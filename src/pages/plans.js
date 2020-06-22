@@ -56,6 +56,20 @@ const Content = (
                 performance="100000/100000"
             />
             <br/>
+            <div class="contentBlack">
+                <Plan
+                    percent="100%"
+                    name="Настройки"
+                    performance="50000/5000"
+                />
+                <br/>
+                <Plan
+                    percent="100%"
+                    name="ДСО"
+                    performance="50000/50000"
+                />
+            </div>
+            <br/>
             <Plan
                 percent="100%"
                 name="Кредиты"

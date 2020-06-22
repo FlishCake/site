@@ -68,6 +68,17 @@ header>p {
     margin-bottom: 2pt;
 }
 
+.plans h1, .plans p {
+    margin-left: 5pt;
+    margin-right: 5pt;
+}
+
+.contentBlack {
+    background-color: darkgray;
+    color: white;
+    padding: 5pt;
+}
+
 footer {
     padding: 5pt;
     text-align: center;
