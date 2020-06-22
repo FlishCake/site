@@ -7,23 +7,14 @@ const Title = "Луховицы L324 План";
 const Plan = props => (
     <>
         <div class="flex">
-            <p class="item">{props.percent}</p>
+            <p class="item">100%</p>
             <h2 class="item">{props.name}</h2>
-            <p class="item">{props.performance}</p>
+            <p class="item">100000/100000</p>
         </div>
-                
         <div class="flex">
-            <div class="item">
-                <p>В день: 10000</p>
-            </div>
-                    
-            <div class="item">
-                <p>До 100%: 20000</p>
-            </div>
-                    
-            <div class="item">
-                <p>Осталось: 100000</p>
-            </div>
+            <p class="item">В день: 10000</p>
+            <p class="item">До 100%: 20000</p>
+            <p class="item">Осталось: 100000</p>
         </div>
     </>
 )
@@ -38,70 +29,32 @@ const Content = (
         
         <div class="content plans">
             <h1>Основные</h1>
-            <Plan
-                percent="100%"
-                name="Товарный оборот"
-                performance="150000/120000"
-            />
+            <Plan name="Товарный оборот"/>
             <br/>
-            <Plan
-                percent="100%"
-                name="Аксессуары"
-                performance="15000/12000"
-            />
+            <Plan name="Аксессуары"/>
             <br/>
-            <Plan
-                percent="100%"
-                name="Доп. оборот"
-                performance="100000/100000"
-            />
+            <Plan name="Доп. оборот"/>
             <br/>
-            <div class="contentBlack">
-                <Plan
-                    percent="100%"
-                    name="Настройки"
-                    performance="50000/5000"
-                />
+            
+            <div class="contentBlack plans">
+                <Plan name="Настройки"/>
                 <br/>
-                <Plan
-                    percent="100%"
-                    name="ДСО"
-                    performance="50000/50000"
-                />
+                <Plan name="ДСО"/>
             </div>
+            
             <br/>
-            <Plan
-                percent="100%"
-                name="Кредиты"
-                performance="15/10"
-            />
+            <Plan name="Кредиты"/>
         </div>
         
         <div class="content plans">
             <h1>ОСС</h1>
-            <Plan
-                percent="100%"
-                name="Билайн"
-                performance="105/80"
-            />
+            <Plan name="Билайн"/>
             <br/>
-            <Plan
-                percent="100%"
-                name="Мегафон"
-                performance="90/60"
-            />
+            <Plan name="Мегафон"/>
             <br/>
-            <Plan
-                percent="100%"
-                name="МТС"
-                performance="40/34"
-            />
+            <Plan name="МТС"/>
             <br/>
-            <Plan
-                percent="100%"
-                name="Yota"
-                performance="30/50"
-            />
+            <Plan name="Yota"/>
         </div>
     </>
 );

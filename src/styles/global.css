@@ -14,7 +14,8 @@ header {
     background-color: black;
     padding-left: 20pt;
     padding-right: 20pt;
-    padding-top: 
+    padding-top: 10pt;
+    padding-bottom: 10pt;
 }
 
 header>a>h1 {
@@ -68,13 +69,14 @@ header>p {
     margin-bottom: 2pt;
 }
 
-.plans h1, .plans p {
-    margin-left: 3pt;
-    margin-right: 3pt;
+.content>.plans {
+    padding-left: 3pt;
+    padding-right: 3pt;
 }
 
 .contentBlack {
-    background-color: darkgray;
+    border-radius: 5pt;
+    background-color: black;
     color: white;
     padding: 3pt;
 }
