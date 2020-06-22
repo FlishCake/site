@@ -38,15 +38,12 @@ const Content = (
         
         <div class="content plans">
             <h1>Основные</h1>
-            
             <Plan
                 percent="100%"
                 name="Товарный оборот"
                 performance="150000/120000"
             />
-            
             <br/>
-            
             <Plan
                 percent="100%"
                 name="Аксессуары"
@@ -64,12 +61,10 @@ const Content = (
                 name="Кредиты"
                 performance="15/10"
             />
-            
         </div>
         
-        <div class="content">
+        <div class="content plans">
             <h1>ОСС</h1>
-            
             <Plan
                 percent="100%"
                 name="Билайн"
@@ -80,6 +75,18 @@ const Content = (
                 percent="100%"
                 name="Мегафон"
                 performance="90/60"
+            />
+            <br/>
+            <Plan
+                percent="100%"
+                name="МТС"
+                performance="40/34"
+            />
+            <br/>
+            <Plan
+                percent="100%"
+                name="Yota"
+                performance="30/50"
             />
         </div>
     </>
