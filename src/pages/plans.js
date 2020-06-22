@@ -52,6 +52,35 @@ const Content = (
                 name="Аксессуары"
                 performance="15000/12000"
             />
+            <br/>
+            <Plan
+                percent="100%"
+                name="Доп. оборот"
+                performance="100000/100000"
+            />
+            <br/>
+            <Plan
+                percent="100%"
+                name="Кредиты"
+                performance="15/10"
+            />
+            
+        </div>
+        
+        <div class="content">
+            <h1>ОСС</h1>
+            
+            <Plan
+                percent="100%"
+                name="Билайн"
+                performance="105/80"
+            />
+            <br/>
+            <Plan
+                percent="100%"
+                name="Мегафон"
+                performance="90/60"
+            />
         </div>
     </>
 );
