@@ -42,7 +42,7 @@ header>p {
 .content {
     border-radius: 5pt;
     margin: 10pt;
-    padding: 10pt;
+    padding: 3pt;
     background-color: white;
 }
 
@@ -69,14 +69,14 @@ header>p {
 }
 
 .plans h1, .plans p {
-    margin-left: 5pt;
-    margin-right: 5pt;
+    margin-left: 3pt;
+    margin-right: 3pt;
 }
 
 .contentBlack {
     background-color: darkgray;
     color: white;
-    padding: 5pt;
+    padding: 3pt;
 }
 
 footer {
